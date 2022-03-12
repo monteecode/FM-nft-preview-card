@@ -11,8 +11,13 @@ article {
   padding: 1em;
   background-color: hsl(216, 50%, 16%);
   border-radius: 10px;
-  height: 650px;
-  width: 400px;
+  height: 550px;
+  width: 300px;
+}
+
+.description,
+h3 {
+  margin-top: 10px;
 }
 
 img.nft-img {
@@ -25,6 +30,15 @@ img.nft-img {
   flex-direction: row;
   justify-content: space-between;
   margin: 10px 0;
+}
+
+.eth-icon {
+  color: hsl(178, 100%, 50%);
+}
+
+.eth-icon img {
+  display: absolute;
+  top: 20px;
 }
 
 .attribution {
