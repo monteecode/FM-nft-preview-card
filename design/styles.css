@@ -1,5 +1,6 @@
 section {
   background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
   width: 100%;
   height: 100vh;
 }
@@ -15,9 +16,26 @@ article {
   width: 300px;
 }
 
-.description,
+div hr {
+  color: hsl(215, 32%, 27%);
+}
+
 h3 {
   margin-top: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  margin-top: 10px;
+}
+
+.creation-text {
+  color: hsl(215, 51%, 70%);
+}
+
+.name-text {
+  color: hsl(0, 0%, 100%);
 }
 
 img.nft-img {
